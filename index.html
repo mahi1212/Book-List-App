@@ -11,7 +11,7 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container mt-4">
+    <div class="container py-4 mt-4">
         <h1 class="text-warning text-center text-uppercase fw-bolder my-5"><span class="border border-success border-3 p-2"><i class="fas fa-book-open text-success"></i> Book List App <i class="fas fa-book-open text-success"></i> </span></h1>
         <form action="mailto:mahi121.mr@gmail.com">
             <div class="mb-3">
@@ -32,20 +32,23 @@
                     <input type="text" class="form-control" id="year">
                 </div>
             </div>
-            <button type="submit" class="p-2 btn btn-success mx-auto d-block">Add Book</button>
+            <button type="submit" class="btn btn-success mx-auto d-block">Add Book</button>
         </form>
-        <table class="table table-striped text-center mt-4">
-            <thead>
+        <table class="table text-center table-striped mt-4">
+            <thead">
                 <tr>
                     <th>Title</th>
                     <th>Year</th>
                     <th>Author</th>
                 </tr>
             </thead>
-            <tbody id="book-list"> </tbody>
+            <tbody id="book-list">
+
+            </tbody>
         </table>
     </div>
     <!------------------ Bootstrap5 JS cdn --------------->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
 </html>
