@@ -17,19 +17,22 @@ btn.addEventListener('click', function(e){
         alert("Kisu ekta input lagbo vai");
     }else{
         const newRow = document.createElement('tr');
+        newRow.classList.add('row')
 
         // creating new title
         const newTitle = document.createElement('th');
         newTitle.innerHTML = title.value;
+        newTitle.classList.add('col-4');
         newRow.appendChild(newTitle);
-
 
         const newAuthor = document.createElement('th');
         newAuthor.innerHTML = author.value;
+        newAuthor.classList.add('col-4');
         newRow.appendChild(newAuthor);
 
         const newYear = document.createElement('th');
         newYear.innerHTML = year.value;
+        newYear.classList.add('col-4');
         newRow.appendChild(newYear);
 
         bookList.appendChild(newRow);
