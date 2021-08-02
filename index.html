@@ -21,19 +21,29 @@
                 </div>
             </div>
             <div class="mb-3">
-                <label for="title" class="col-form-label">Author</label>
+                <label for="author" class="col-form-label">Author</label>
                 <div>
                     <input type="text" class="form-control" id="author">
                 </div>
             </div>
             <div class="mb-3">
-                <label for="title" class="col-form-label">Year</label>
+                <label for="year" class="col-form-label">Year</label>
                 <div>
                     <input type="text" class="form-control" id="year">
                 </div>
             </div>
             <button type="submit" class="p-2 btn btn-success mx-auto d-block">Add Book</button>
         </form>
+        <table class="table table-striped text-center mt-4">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Year</th>
+                    <th>Author</th>
+                </tr>
+            </thead>
+            <tbody id="book-list"> </tbody>
+        </table>
     </div>
     <!------------------ Bootstrap5 JS cdn --------------->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
